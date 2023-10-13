@@ -29,7 +29,8 @@ public class SecurityConfig {
                                 "/registration",
                                 "/product/**",
                                 "/images/**",
-                                "/user/**"
+                                "/user/**",
+                                "/static/**"
                         )
                         .permitAll()
                         .anyRequest()
